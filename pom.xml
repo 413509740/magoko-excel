@@ -19,6 +19,10 @@
     <module>magoko-excel-bom</module>
     <module>magoko-excel-build</module>
     <module>magoko-excel-parent</module>
+    <module>magoko-excel-client</module>
+    <module>magoko-excel-client-starter</module>
+    <module>magoko-excel-server</module>
+    <module>magoko-excel-server-starter</module>
   </modules>
 
 </project>

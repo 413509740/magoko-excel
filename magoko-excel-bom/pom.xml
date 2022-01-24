@@ -15,4 +15,29 @@
   <artifactId>magoko-excel-bom</artifactId>
   <packaging>pom</packaging>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>magoko</groupId>
+        <artifactId>magoko-excel-client</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>magoko</groupId>
+        <artifactId>magoko-excel-client-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>magoko</groupId>
+        <artifactId>magoko-excel-server</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>magoko</groupId>
+        <artifactId>magoko-excel-server-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
 </project>
