@@ -9,16 +9,16 @@
     <groupId>magoko</groupId>
     <artifactId>magoko-excel-build</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>build/build-tool/pom.xml</relativePath>
+    <relativePath>magoko-excel-build/pom.xml</relativePath>
   </parent>
 
   <artifactId>magoko-excel</artifactId>
   <packaging>pom</packaging>
 
   <modules>
-    <module>build/bom</module>
-    <module>build/build-tool</module>
-    <module>build/build-parent</module>
+    <module>magoko-excel-bom</module>
+    <module>magoko-excel-build</module>
+    <module>magoko-excel-parent</module>
   </modules>
 
 </project>
